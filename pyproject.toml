@@ -1,0 +1,31 @@
+[project]
+name = "mlops-workspace"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "certifi>=2026.7.22",
+    "dill>=0.4.1",
+    "fastapi>=0.141.1",
+    "mlflow>=1.27.0",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "protobuf==3.20.3",
+    "pyaml>=26.7.0",
+    "pymongo[srv]>=4.17.0",
+    "python-dotenv>=1.2.2",
+    "python-multipart>=0.0.32",
+    "scikit-learn>=1.9.0",
+    "setuptools<81",
+    "uvicorn>=0.52.4",
+]
+
+
+[tool.setuptools.packages.find]
+include = ["networksecurity*"]
+
+# This is required! Updated to match your exact toolchain version baseline
+[build-system]
+requires = ["setuptools>=84.0.0"]
+build-backend = "setuptools.build_meta"
