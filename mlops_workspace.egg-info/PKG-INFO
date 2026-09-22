@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: mlops-workspace
+Version: 0.1.0
+Summary: Add your description here
+Author: Brijendra Mishra
+Author-email: brijendram2014@gamil.com
+Requires-Python: >=3.14
+Description-Content-Type: text/markdown
+Requires-Dist: certifi>=2026.7.22
+Requires-Dist: dill>=0.4.1
+Requires-Dist: fastapi>=0.141.1
+Requires-Dist: mlflow>=1.27.0
+Requires-Dist: numpy>=2.5.2
+Requires-Dist: pandas>=3.0.5
+Requires-Dist: protobuf==3.20.3
+Requires-Dist: pyaml>=26.7.0
+Requires-Dist: pymongo[srv]>=4.17.0
+Requires-Dist: python-dotenv>=1.2.2
+Requires-Dist: python-multipart>=0.0.32
+Requires-Dist: scikit-learn>=1.9.0
+Requires-Dist: setuptools<81
+Requires-Dist: uvicorn>=0.52.4
+Dynamic: author
+Dynamic: author-email
+
+### Network Security Project For Phishing Data
